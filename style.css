@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+body {
+  background-image: url(./images/BACKGROUND.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Poppins, "sans-serif";
+  height: 100vh;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-items {
+  display: flex;
+}
+
+.nav-item {
+  list-style: none;
+  margin-right: 3rem;
+}
+
+.right-item {
+  display: flex;
+  font-weight: 400;
+  font-size: 1.4rem;
+  margin-right: 4rem;
+  border-bottom: 1px solid #fff;
+  align-items: center;
+}
+
+.logo {
+  margin-top: 1.5rem;
+  margin-left: 4rem;
+}
+
+.intro-heading {
+  margin-left: 5rem;
+  margin-top: 6rem;
+  width: 700px;
+}
+
+.intro-heading h1 {
+  font-size: 4rem;
+}
+
+.learn-more {
+  background-color: transparent;
+  color: #fff;
+  border-color: #fff;
+  border-radius: 25px;
+  padding: 1rem 3rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-left: 5rem;
+}
+
+.boxes {
+  float: right;
+  margin-right: 5rem;
+}
+
+.box1 {
+  width: 200px;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 1rem;
+  position: relative;
+  top: -300px;
+}
+
+.box1 .line {
+  transform: rotate(90deg);
+  position: relative;
+  bottom: -87px;
+  right: -90px;
+}
+
+.box2 {
+  width: 200px;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 1rem;
+  position: relative;
+  top: -250px;
+  left: -300px;
+}
+
+.box2 .line {
+  position: relative;
+  left: 215px;
+}
+
+.bulb-icon {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 0.2rem 1.5rem;
+  color: #000;
+}
+.puzzle-icon {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 0.2rem 1.5rem;
+  color: #000;
+}
