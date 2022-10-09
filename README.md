@@ -13,4 +13,4 @@ https://interiordesign-saurabh.netlify.app/
 
 ## TIme Taken
 
-Project took around 6 hours	
+Project took around 5 hours	
